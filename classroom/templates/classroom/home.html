@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Welcome to the Better Career Skill Tests! <span class="icon-emo-happy"></span></h2>
+  <p class="lead">
+    If you already have an account, go ahead and <a href="{% url 'login' %}">log in</a>. If you are new to Better Career Skill Tests, get started
+    by creating a <a href="{% url 'student_signup' %}">student account</a> or if u want to contribute <a href="{% url 'teacher_signup' %}">Click here</a>.
+  </p>
+  <hr>
+
+{% endblock %}
